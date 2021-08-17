@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# Calculator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A calculator application that provides the essential arithmetic operations and expression builder.
+
+## 🔗 Live Link
+
+This application is live and available online [here](https://gursimratrai.github.io/calculator-react/)
+
+## Screenshots
+
+![App Screenshot](https://drive.google.com/uc?export=view&id=1dPdoHuAayuMYnOgamdDltJpV67UYNNu3)
+
+## Features
+
+- Add
+- Subtract
+- Multiply
+- Divide
+- Toggle Sign
+- Expression Builder
+- Clear current value and expression
+- Clear everything.
 
 ## Available Scripts
 
