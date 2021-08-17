@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+  background-image: url("./images/bg.jpg");
+}
+
+/* outer-most calculator container */
+#container{
+  border-radius:12px;
+  background: linear-gradient(rgb(12, 155, 12),rgb(62, 235, 62),rgb(163, 252, 163));
+}
+
+/* display shows the result */
+#display{
+  color:white;
+  position: relative;
+  min-height:100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* text inside the display */
+#display p{
+  margin:0px;
+  font-size: 2rem;
+  position: absolute;
+  bottom:0px;
+  right:0px;
+}
+
+/* Keypad */
+.pad{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:5px;
+  border-radius:12px;
+  background:radial-gradient(blue,rgb(9, 65, 170));
+}
+
+/* each row of the keypad */
+.pad .row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* button on the keypad */
+.pad button{
+  min-width:100px;
+  min-height:50px;
+  border:0px;
+  font-size: 1.1rem;
+  border-radius:6px;
+  color:white;
+  background-color: transparent;
+}
+
+.pad button:hover{
+  background-color: rgb(80, 105, 247);
+}
+
+/* all clear button */
+.pad .clear{
+  background-color: blue;
+}
+
+/* operator i.e. + ,- , / , * , = */
+.pad .opterator{
+background-color: rgb(11, 44, 230);
+}
